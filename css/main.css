@@ -17,7 +17,7 @@ img {
 
 /* regole di debug */
 [class*="col-"] {
-  min-height: 80px;
+  min-height: 50px;
   vertical-align: center;
   /* debug */
 
@@ -35,34 +35,31 @@ img {
 }
 
 header {
-  padding-top: 100px;
-
+  padding-top: 50px;
 }
 
-#head-menu [class*="col-"] {
+#head-menu span {
   font-family: 'Oswald', sans-serif;
-  line-height: 80px;
 }
 
-#logotext {
-
-  font-size: 30px;
-
+.logo-text {
+  font-size: 25px;
+  line-height: 50px;
 }
 
-#menutext a {
-
-  margin-left: 20px;
+.menu-text a{
+  font-size: 12px;
   text-decoration: none;
-  font-size: 15px;
-
+  color:black;
+  margin-left: 8px;
+  line-height: 50px;
 }
 
-#rightmenu span {
-  margin-left: 20px;
-  text-decoration: none;
-  font-size:15px;
+.menu-text span {
+  margin-left: 8px;
 }
+
+
 
 #jumbo {
  min-height: 300px;
