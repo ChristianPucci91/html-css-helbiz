@@ -17,9 +17,11 @@ img {
 
 /* regole di debug */
 [class*="col-"] {
-  min-height: 100px;
-  background-color: lightgreen;
-  border: solid 1px  #000;
+  min-height: 80px;
+  vertical-align: center;
+  /* debug */
+
+  /* fine debug */
   padding: 2px;
 }
 
@@ -34,6 +36,32 @@ img {
 
 header {
   padding-top: 100px;
+
+}
+
+#head-menu [class*="col-"] {
+  font-family: 'Oswald', sans-serif;
+  line-height: 80px;
+}
+
+#logotext {
+
+  font-size: 30px;
+
+}
+
+#menutext a {
+
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+
+#rightmenu span {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size:15px;
 }
 
 #jumbo {
