@@ -11,7 +11,7 @@ img {
 }
 
 .centre-nav-foot {
-  padding: 0 10%;
+
   width: 100%;
 }
 
@@ -29,11 +29,11 @@ img {
   top:0;
   left:0;
   z-index: 10;
+  background-color: white;
 }
 
 header {
   padding-top: 100px;
-  background-color: white;
 }
 
 #jumbo {
@@ -44,4 +44,21 @@ header {
  padding-top:100px;
  text-align:center;
  /* fine debug */
+}
+
+#head-menu {
+  margin:0 10%;
+}
+
+/* ///// REGOLE MAIN ///// */
+
+/* Regole sezione prodotti  */
+
+.product {
+  margin:0 5%;
+  /* debug */
+  min-height: 200px;
+  background: blue;
+  opacity: 0.5;
+  /* fine debug */
 }
