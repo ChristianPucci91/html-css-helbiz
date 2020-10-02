@@ -40,23 +40,29 @@ header {
 
 #head-menu span {
   font-family: 'Oswald', sans-serif;
+
 }
 
 .logo-text {
   font-size: 25px;
   line-height: 50px;
 }
+.menu-text{
+  float:right;
+}
 
 .menu-text a{
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
   color:black;
   margin-left: 8px;
   line-height: 50px;
+
 }
 
 .menu-text span {
   margin-left: 8px;
+
 }
 
 
