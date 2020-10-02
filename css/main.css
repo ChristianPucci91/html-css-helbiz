@@ -1,0 +1,47 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.centre-nav-foot {
+  padding: 0 10%;
+  width: 100%;
+}
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  background-color: lightgreen;
+  border: solid 1px  #000;
+  padding: 2px;
+}
+
+/* Regole Header  */
+#nav-fixed {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 10;
+}
+
+header {
+  padding-top: 100px;
+  background-color: white;
+}
+
+#jumbo {
+ min-height: 300px;
+ /* debug */
+ background: red;
+ opacity: 0.6;
+ padding-top:100px;
+ text-align:center;
+ /* fine debug */
+}
