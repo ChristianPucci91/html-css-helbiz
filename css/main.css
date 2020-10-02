@@ -62,3 +62,12 @@ header {
   opacity: 0.5;
   /* fine debug */
 }
+
+/* Sezione How Helbiz works */
+
+/* TEST ID  */
+#test > [class*="col-"] {
+  /* debug */
+  min-height: 500px;
+  /* fine debug */
+}
