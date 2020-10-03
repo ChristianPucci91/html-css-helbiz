@@ -42,6 +42,10 @@ header {
   font-family: 'Oswald', sans-serif;
 }
 
+#head-menu {
+  margin:0 10%;
+}
+
 .logo-text {
   font-size: 25px;
   line-height: 50px;
@@ -62,6 +66,8 @@ header {
   margin-left: 8px;
 }
 
+/* ///JUMBOTRON COMANDI///// */
+
 .jumbotron {
   position:relative;
 }
@@ -75,6 +81,7 @@ header {
   color:white;
   font-family: 'Oswald', sans-serif;
   text-align: center;
+  margin:auto;
 }
 
 .jumbo-text p {
@@ -92,28 +99,163 @@ header {
   margin-top: 25px;
 }
 
-#head-menu {
-  margin:0 10%;
-}
-
 /* ///// REGOLE MAIN ///// */
 
 /* Regole sezione prodotti  */
 
 .product {
+  position: relative;
   margin:0 5%;
-  /* debug */
-  min-height: 200px;
-  background: blue;
-  opacity: 0.5;
-  /* fine debug */
+}
+
+.product-text h1,.product-text h5 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 10px;
+}
+
+.product-text a {
+  text-decoration: none;
+}
+
+.product img {
+
+  max-height: 500px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.product-text {
+  position:absolute;
+  top:20%;
+  left:50%;
+  transform: translate( -50%, -50% );
+  font-size: 25px;
+  color:black;
+  text-align: center;
+}
+
+#margin {
+  margin-top: 40px;
 }
 
 /* Sezione How Helbiz works */
 
-/* TEST ID  */
-#test > [class*="col-"] {
-  /* debug */
+.relative {
+  max-height: 400px;
+  background-image: url("../img/anziano.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#iphone {
+  padding-top: 180px;
+}
+
+/* Sezione Mobility */
+
+/* comandi generali */
+
+#mobility > [class*="col-"] {
   min-height: 500px;
-  /* fine debug */
+
+}
+
+/* scooter section */
+
+#scooter {
+  background-image: url("../img/scooter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scooter-text::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.scooter-text {
+  position: relative;
+  float:right;
+  width: 50%;
+  height: 100%;
+}
+
+.scooter-text-2 {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate( -50% , -50% );
+}
+
+
+#gradient {
+  background-image: linear-gradient(#372a66, #060517, #00d4ff);
+
+}
+
+.mobility-section {
+  height: 50%;
+  width: 100%;
+  margin:auto;
+
+}
+
+/* sezione social */
+
+.pachwork {
+  position: relative;
+}
+
+.pachwork-background{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate( -50% , -50% );
+  background-color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.pachwork-text i{
+  float:left;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+/* /// FOOTER /// */
+
+.centra-head-foot {
+  width: 100%;
+  background-color: black;
+}
+
+#center-footer {
+  width: 80%;
+  margin:auto;
+  color:white;
+  border-bottom: 1px solid grey;
+}
+
+#center-footer i {
+  margin-right: 20px;
+  color:white;
+
+}
+
+#center-footer > [class*="col-"]{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#center-footer span {
+  display: block;
+  margin-top: 20px;
+}
+
+#center-footer a {
+  text-decoration: none;
+  color:grey;
 }
