@@ -10,11 +10,14 @@ img {
   height: auto;
 }
 
-.centre-nav-foot {
+.centre-nav {
 
   width: 100%;
 }
 
+.margin {
+  margin-top: 50px;
+}
 /* Regole Header  */
 
 #nav-fixed {
@@ -262,30 +265,36 @@ header {
 
 /* sezione social */
 
-.pachwork {
+.patchwork {
   position: relative;
 }
 
-.pachwork-background{
+.patchwork-background{
   position: absolute;
   top:50%;
   left:50%;
   transform: translate( -50% , -50% );
   background-color: white;
   text-align: center;
-  padding: 40px;
+  width: 300px;
+  height: 150px;
 }
 
-.pachwork-text i{
-  float:left;
-  margin-left: 15px;
-  margin-right: 5px;
-  margin-top: 10px;
+.patchwork h1 {
+  margin-top: 40px;
+}
+
+.patchwork-text i{
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 20px;
 }
 
 /* /// FOOTER /// */
 
-.centra-head-foot {
+/* Regole generali */
+.centra-foot {
   width: 100%;
   background-color: black;
 }
@@ -300,7 +309,6 @@ header {
 #center-footer i {
   margin-right: 20px;
   color:white;
-
 }
 
 #center-footer > [class*="col-"]{
